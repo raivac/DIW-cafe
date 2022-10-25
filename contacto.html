@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+
+  <main>
+    <h1>Contacto</h1>
+    <hr>
+    <form name="datos" method="get" action="" autocomplete="off">
+      <fieldset>
+        <legend>
+          <h2><b>Datos Personales</b></h2>
+        </legend>
+        <p>
+          <label for="nombre"><b>Nombre: *</b></label>
+          <input type="text" id="nombre" name="nombre" maxlength="100" autofocus="autofocus" required="required"
+            placeholder="Escriba su nombre" />
+        </p>
+        <p>
+          <label for="apellidos"><b>Apellidos:<b></label>
+          <input type="text" id="apellidos" name="apellidos" maxlength="100" placeholder="Escriba sus apellidos" />
+        </p>
+        <p>
+          <label for="email"><b>E-mail: *</b></label>
+          <input type="email" id="email" name="email" maxlength="50" placeholder="Escriba su correo" required="required"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+        </p>
+        <p>
+          <label for="edad"><b>Edad:</b></label>
+          <input type="number" id="edad" name="edad" min="18" max="99" weight="30px" placeholder="Indique su edad" />
+        </p>
+        <br>
+      </fieldset>
+      <fieldset>
+        <legend>
+          <h2><b>Datos de Interes</b></h2>
+        </legend>
+        <p>
+          <label for="tazas"><b>Cuantas tazas tomas al dia?</b></label><br><br>
+
+          <input type="radio" id="" name="tazas" checked />
+          <label for="">1 o 2 tazas </label>
+
+          <input type="radio" id="" name="tazas" />
+          <label for="">3 - 5 tazas</label>
+
+          <input type="radio" id="" name="tazas" />
+          <label for="">Mas de 5 tazas</label>
+        </p>
+        <p>
+          <br>
+          <label for="gusto"><b>Que café te gusta mas?<b></label><br>
+          <select id="estudios" name="gusto" multiple>
+            <option value="ara">Arabica</option>
+            <option value="rob">Robusta </option>
+            <option value="car">Caracolillo</option>
+          </select>
+        </p>
+        <p>
+          <br>
+          <label for="encontrado"><b>Como nos has encotrado?</b></label>
+          <input type="textarea" id="" name="encontrado" list="lista" />
+          <datalist id="lista">
+            <option value="anuncio de televisión"></option>
+            <option value="buscadores"></option>
+            <option value="un amigo"></option>
+            <option value="redes sociales"> </option>
+          </datalist>
+        </p>
+        <p>
+          <label for="color"><b>Color favorito del cafe?</b></label>
+          <input type="color" name="color" id="">
+        </p>
+        <p>
+          <label for="rango"><b>Rango de tostado:</b></label>
+          <br><input type="range" name="rango" id="">
+        </p>
+        <p>
+          <label for="descripcion">Comentarios:<br></label>
+          <textarea id="" name="descripcion" cols="55" rows="5" placeholder="Comentarios..."></textarea>
+        </p>
+      </fieldset>
+      <p><b>Los campos con (*) son obligatorios, no de olvide de rellenarlos!</b></p>
+      <p>
+        <input type="submit" value="Enviar" class="boton_enviar">
+        <input type="submit" value="Borrar" class="boton_eliminar">
+      </p>
+    </form>
+  </main>
+
+
+
+</body>
+
+</html>

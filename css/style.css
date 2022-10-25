@@ -1,0 +1,131 @@
+body {
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #CCCC66;
+    border-radius: 25px;
+    width: 1100px;
+}
+
+#img1 {
+    width: 100px;
+    margin-top: 10px;
+}
+
+#img2 {
+    margin-left: 250px;
+    width: 500px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+#img3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+nav {
+    font-size: 16pt;
+    background-color: #CCCC66;
+    padding-top: 50px;
+    margin-right: 100px;
+    border-radius: 25px;
+    width: 300px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #CCCC66;
+}
+.dog{
+    color: darkolivegreen;
+}
+
+h1 {
+    color: #CCCC66;
+    font-size: 35pt;
+}
+
+h2 {
+    color: #CCCC66;
+    font-size: 25pt;
+}
+
+
+#tabla {
+    margin: auto;
+    margin-top: 50px;
+}
+
+#tabla2 {
+    text-align: left;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-color: #CCCC66;
+    border-radius: 15px;
+    border-color: darkolivegreen;
+}
+
+#panel {
+    background-color: #CCCC66;
+    width: 700px;
+    height: auto;
+    border-radius: 25px;
+    padding-bottom: 40px;
+}
+
+
+#imagen_inicio {
+    margin-top: 90px;
+    border-radius: 25px;
+}
+
+#ul2 {
+    text-align: left;
+    list-style:circle;
+}
+
+p {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #CCCC66;
+}
+
+#frame1{
+    border-radius: 25px;
+    width: 600px;
+    height: 530px;
+}
+.boton_enviar{
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #CCCC66;
+    background-color: #2db02f;
+    border-radius: 3px;
+    border: 1px darkolivegreen;
+}
+.boton_eliminar{
+    margin-left: 10px;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #CCCC66;
+    background-color: #ba1818;
+    border-radius: 3px;
+    border: 1px darkolivegreen;
+}
