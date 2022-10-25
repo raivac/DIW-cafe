@@ -12,12 +12,13 @@ header {
 }
 
 #img1 {
+    text-align: left;
     width: 100px;
     margin-top: 10px;
 }
 
 #img2 {
-    margin-left: 250px;
+    margin-left: 300px;
     width: 500px;
     margin-bottom: 15px;
     border-radius: 25px;
